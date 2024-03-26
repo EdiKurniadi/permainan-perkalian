@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Permainan Perkalian</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div id="container">
+    <h1>Permainan Perkalian</h1>
+     <div id="theme-toggle">
+      <button id="toggle-btn"><i class="fas fa-moon"></i></button>
+    </div>  
+    <div id="question-container">
+      <div id="question"></div>
+      <input type="text" id="answer" placeholder="Masukkan Jawaban">
+    </div>
+    <button id="answer-button"><i class="fas fa-pencil-alt"></i>Jawab</button>
+    <div id="timer-container">
+      <div id="timer">Waktu tersisa: -- detik</div>
+    </div>
+    <div id="notification"></div>
+    <div id="stats">
+      <p><i class="fas fa-check-circle"></i> Benar: <span id="correct">0</span></p>
+      <p><i class="fas fa-times-circle"></i> Salah: <span id="incorrect">0</span></p>
+      <p><i class="fas fa-clock"></i> Rata-rata Waktu: <span id="avgTime">0</span> detik</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
